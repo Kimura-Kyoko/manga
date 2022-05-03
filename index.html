@@ -1,0 +1,111 @@
+<html>
+<head>
+  <title>おすすめ漫画診断</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+</script>
+
+<div class="choose_box">
+      <!-- 質問一覧 -->
+      <div class="app-theme">
+        <p>おすすめ漫画診断(全5問)</p>
+      </div>
+      <!-- 質問1 -->
+      <div id="q_01" class="fit">
+        <p>質問1: どこかに遊びに行くなら　</p>
+        <ul>
+          <li><a class="btn" href="#q_02" data-value="a">テーマパークで思いきり遊ぶ！</a></li>
+          <li><a class="btn" href="#q_02" data-value="b">温泉旅館でまったりする</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問2 -->
+      <div id="q_02" style="display: none;">
+        <p>質問2:　今食べたいものは</p>
+        <ul>
+          <li><a class="btn" href="#q_03" data-value="a">ガッツリ肉系！</a></li>
+          <li><a class="btn" href="#q_03" data-value="b">デザート食べたい</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問3 -->
+      <div id="q_03" style="display: none;">
+        <p>質問3:　運動するのは</p>
+        <ul>
+          <li><a class="btn" href="#q_04" data-value="a">好き</a></li>
+          <li><a class="btn" href="#q_04" data-value="b">あんまり、、</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問4 -->
+      <div id="q_04" style="display: none;">
+        <p>質問4:　最近のあなたに足りていないものは</p>
+        <ul>
+          <li><a class="btn" href="#q_05" data-value="a">刺激</a></li>
+          <li><a class="btn" href="#q_05" data-value="b">癒し</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問5 -->
+      <div id="q_05" style="display: none;">
+        <p>質問5:　あなたは</p>
+        <ul>
+          <li><a class="btn end" data-value="a">感情表現豊かな方</a></li>
+          <li><a class="btn end" data-value="b">あまり感情が表に出ない</a></li>
+        </ul>
+      </div>
+
+
+
+<!-- ここから以下回答 -->
+  <!-- 回答の答え1 -->
+     <div id="answer_01" class="result" style="display: none;">
+      <div class="result_theme ">
+            <p>おすすめの漫画は</p>
+      </div>
+      <div class="result_type0 ">
+            <h4>ONE PIECE</h4>
+      </div>
+      <div class="result_discription0">
+        <h2>アニメ化：◯</h2>
+        <p>
+          　発行部数世界一の大人気漫画！　ONE PIECEを読んでスカッとしよう！
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+       </div>
+     </div>
+
+
+
+  <!-- 回答の答え2 -->
+     <div id="answer_02" style="display: none;">
+          <div class="result_theme ">
+            <p>おすすめの漫画は</p>
+      </div>
+      <div class="result_type1 ">
+            <h4>しろくまカフェ</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>アニメ化：◯</h2>
+        <p>
+          　シロクマくんがマスターをしているカフェを中心に繰り広げられるスローライフに思わずほっこり
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+       </div>
+     </div>
+
+ </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
